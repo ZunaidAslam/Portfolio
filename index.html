@@ -21,14 +21,14 @@
 </head>
 <body>
 <!--header-->
-<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+<nav class="navbar  navbar-expand-md sticky-top">
   <div class="container-fluid">
     <a class="navbar-brand" href="#"><img class="logo" src="images/logo.svg" alt="zunaidaslam-logo"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarResponsive">
-      <ul class="navbar-nav ml-auto">
+      <ul class="navbar-nav ml-auto ">
         <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
         <li class="nav-item"><a class="nav-link" href="#">Work</a></li>
         <li class="nav-item"><a class="nav-link" href="#">About</a></li>
@@ -52,7 +52,21 @@
   </header> -->
 
   <!--hero-section-->
-  <section class="hero-image ">
+  <div  class="container-fluid">
+     <div class="jumbotron text-center">
+    <h1 class="display-3">Hello! I am <span class="name">Zunaid Aslam</span><br>Front End Developer, Designer<br>& Problem Solver</h1>
+      <a href="#" role="button">Get in touch</a>
+      <ul class="list-inline social" >
+        <li class="list-inline-item"><a href="">LinkedIn</a></li>
+        <li class="list-inline-item"><a href="">Github</a></li>
+        <li class="list-inline-item"><a href="">Instagram</a></li>
+        <li class="list-inline-item"><a href="">Twitter</a></li>
+      </ul>
+  </div>
+  </div>
+ 
+
+  <!-- <section class="hero-image ">
     <h1>Hello! I am <span class="name">Zunaid Aslam</span><br>Front End Developer, Designer<br>& Problem Solver</h1>
     <button id="get-in-touch">Get in touch</button>
     <ul class="social-media">
@@ -62,11 +76,33 @@
       <li><a href="">Twitter</a></li>
     </ul>
     <img src="images/arrow-down.svg">
-  </section>
+  </section> -->
   
   
   <!--Product-section-->
-<section class="my-products">
+<div class="container-fluid padding">
+  <div class="row text-center">
+    <div class="col-12"><h2 class="display-4">My Products</h2></div>
+  </div>
+  <div class="row padding">
+      <div class="col-12">
+        <div class="card">
+            <img class="card-img-top" src="https://images.unsplash.com/photo-1564182379166-8fcfdda80151?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60">
+            <h3 class="card-title">Color Jungle</h3>
+      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum exercitationem temporibus reiciendis aliquid, dolores pariatur, vel eius odit amet at est veritatis animi blanditiis sit iusto quae rem eligendi possimus?</p>
+
+        </div>
+      </div>
+    </div>
+
+</div>
+
+
+
+
+
+
+<!-- <section class="my-products">
   <h2>My Products</h2>
   <div class="product-info">
     <img src="https://images.unsplash.com/photo-1564182379166-8fcfdda80151?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60">
@@ -76,11 +112,19 @@
     </div>
   </div>
 </div>
-</section>
+</section> -->
 
   <!--footer-->
   <footer>
-    <p>©2019  Crafted with ❤️ by Zunaid Aslam </p>
+    <div class="container-fluid padding">
+      <div class="row text-center">
+        <div class="col-12">
+            <h4>©2019  Crafted with ❤️ by Zunaid Aslam </h4>
+        </div>
+          
+      </div>
+    </div>
+
   </footer>
 </body>
 </html>
