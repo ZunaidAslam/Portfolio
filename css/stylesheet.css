@@ -31,6 +31,10 @@ html, body {
     font-weight: 400;
   }
 
+  .nav-item{
+    padding-left: 16px; 
+  }
+
   .nav-link:hover{
     color: #2A76F3;   
     }
@@ -39,7 +43,7 @@ html, body {
     font-weight: 500;
   }
 
-  /* hero-section */
+   /*hero-section */
 
   .jumbotron{
     background-color: white;
@@ -47,8 +51,8 @@ html, body {
     padding-bottom: 0px;
     margin-top: 64px;
     margin-bottom: 24px;
-    padding-left: 24px;
-    padding-right: 24px;  
+    padding-left: 0px;
+    padding-right: 0px;  
   }
 
   .name {
@@ -77,7 +81,7 @@ html, body {
     letter-spacing: 0.03em;
     text-transform: capitalize;
     text-decoration: none;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.16);
+    box-shadow: 0px 4px 8px rgba(40, 41, 43, 0.16);
     transition: all .3s ease-out;
   }
 
@@ -93,6 +97,14 @@ html, body {
   .list-inline-item a:hover{
     color: #2A76F3; 
     text-decoration: none;
+  }
+
+  /*product-section*/
+
+  .img-body{
+    margin: 24px 24px 16px 24px;
+    background: yellow;
+    display: inline-block;
   }
 
 
