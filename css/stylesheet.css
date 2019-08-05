@@ -7,10 +7,15 @@ html, body {
   }
 
 
-  /*header*/
-  .container-fluid{
+/*header*/  
+  /* .container-fluid{
     padding-right: 0px;
     padding-left: 0px;
+  } */
+
+  
+  .logo:hover{
+    fill: #2A76F3;
   }
   .navbar{
     padding-top: 11px;
@@ -51,7 +56,7 @@ html, body {
     padding-bottom: 0px;
     margin-top: 64px;
     margin-bottom: 24px;
-    padding-left: 0px;
+    padding-left: 18%;
     padding-right: 0px;  
   }
 
@@ -60,7 +65,7 @@ html, body {
   }
 
   .display-3 {
-    min-width: 424px;
+    min-width: 31%;
     margin: auto;
     font-size: 150%;
     line-height: 140%;
@@ -101,10 +106,45 @@ html, body {
 
   /*product-section*/
 
-  .img-body{
-    margin: 24px 24px 16px 24px;
+  .img-body{ 
+    margin: 8px 24px 16px 16%;
+    padding: 24px 24px 16px 24px;
     background: yellow;
     display: inline-block;
+    background: #FFFFFF;
+    border-radius: 8px;
+    transition: all .45s ease-out;
+    cursor: pointer;
   }
 
+  .img-body:hover{
+    box-shadow: 0px 20px 48px rgba(26, 26, 26, 0.08);
+  }
 
+  .img-body:hover .display-4{
+    color: #2A76F3;
+  }
+
+  .port-info{
+    padding-left: 0px;
+    margin-top: 16px;
+  }
+
+  .port-img{
+    width: 100%;
+    
+  }
+
+  .display-4{
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #32393D;
+  transition: all .45s ease-out;
+  }
+
+  .port-info p {
+    min-width: 240px;
+    max-width: 520px;
+  }
