@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap" rel="stylesheet">
   
   <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -15,13 +15,13 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 <!-- Latest compiled JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-<link rel="stylesheet" href="css/stylesheet.css">
+<link rel="stylesheet" href="css/index.css">
 <title>Zunaid Aslam</title>
 </head>
 <body>
 
 <!--header-->
-<nav class="navbar  navbar-expand-md sticky-top">
+<nav class="navbar navbar-expand-md">
   <div class="container-fluid">
     <a class="navbar-brand" href="#"><img class="logo" src="images/logo.svg" alt="zunaidaslam-logo"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
@@ -32,64 +32,56 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav ml-auto ">
-        <li class="nav-item"><a class="active nav-link active" href="index.html">Home</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Work</a></li>
-        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li  class="nav-item d-flex justify-content-center align-items-center"><a class="active nav-link active" id="home" href="index.html">Home</a></li>
+        <li  class="nav-item d-flex justify-content-center align-items-center"><a class="nav-link" id="about" href="about.html">About</a></li>
+        <li class="nav-item " ><a class="nav-link d-flex justify-content-center align-items-center" id="contact-button" href="#">Contact</a></li>
     </ul>
     </div>
   </div>
 </nav>
 
   <!--hero-section-->
-  <div  class="container-fluid">
-     <div class="jumbotron col-8"  >
-    <h1 class="display-3">Hello! I am <span class="name">Zunaid Aslam</span><br>Front End Developer, Designer<br>& Problem Solver</h1>
-      <a href="#" role="button" id="get-in-touch">Get in touch</a>
-      <ul class="list-inline social" >
-        <li class="list-inline-item"><a href="">LinkedIn</a></li>
-        <li class="list-inline-item"><a href="">Github</a></li>
-        <li class="list-inline-item"><a href="">Instagram</a></li>
-        <li class="list-inline-item"><a href="">Twitter</a></li>
+  <div  class="hero container-fluid">
+     <div class="row">
+       <div class="offset-md-1 col-md-9 col-sm-11">
+        <h1 class="title">ZUNAID ASLAM | FRONT END DESIGNER & DEVELOPER </h1>
+        <h2 class="display-3">Hello!
+        I Help Improve  Digital <br> Experience with Design & <br>
+        Development</h2>
+        <p id="client-msg">I answer to individual client project as well as 
+            provide <br> solution for products from idea to execution</p>
+          <a href="#" role="button" id="btn-contact">Work With Me</a>
+       </div>
+
+      <ul class="offset-md-1 social col-md-1 col-sm-11" >
+        <li class=" list-inline-item"><a href=""><img src="./images/twitter.svg"></a></li>
+        <li class=" list-inline-item"><a href=""><img src="./images/facebook.svg"></a></li>
+        <li class=" list-inline-item"><a href=""><img src="./images/github.svg"></a></li>
+        <li class=" list-inline-item"><a href=""><img src="./images/linkedin.svg"></a></li>
       </ul>
+      
   </div>
   </div>
 
   <!--Product-section-->
-<div class="container-fluid">
-  <div class="row container-fluid">
-        <div class="img-body col-8">
-        <img class="port-img" src="./images/pc.png">
-        <div class="port-info">
-          <h3 class="display-4 port-title">Project C</h3>
-          <p class="port-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum exercitationem temporibus reiciendis aliquid, dolores pariatur, vel eius odit amet at est veritatis animi blanditiis sit iusto quae rem eligendi possimus?</p>
-        </div>
-      </div>
+  <div class="portfolio container-fluid">
+    <div class=" row">
+      <div class="portfolio img col-md-6">
+        <a href="#"><img class="img-fluid" src="images/port-1.png" alt="inn_logo" /></a>
+    </div>
+    <div class="portfolio img col-md-6">
+        <a href="#" ><img class="img-fluid" src="images/port-2.png" alt="ccs_logo" /></a>
+    </div>
+    </div>
+    <div class=" row">
+      <div class="portfolio img col-md-6">
+        <a href="#"><img class="img-fluid" src="images/port-3.png" alt="inn_logo" /></a>
+    </div>
+    <div class="portfolio img col-md-6">
+        <a href="#" ><img class="img-fluid" src="images/port-4.png" alt="ccs_logo" /></a>
+    </div>
     </div>
   </div>
-
-  <div class="container-fluid">
-    <div class="row container-fluid">
-          <div class="img-body col-8">
-          <img class="port-img" src="./images/pc.png">
-          <div class="port-info">
-            <h3 class="display-4 port-title">Project C</h3>
-            <p class="port-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum exercitationem temporibus reiciendis aliquid, dolores pariatur, vel eius odit amet at est veritatis animi blanditiis sit iusto quae rem eligendi possimus?</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="container-fluid">
-      <div class="row container-fluid">
-            <div class="img-body col-8">
-            <img class="port-img" src="./images/pc.png">
-            <div class="port-info">
-              <h3 class="display-4 port-title">Project C</h3>
-              <p class="port-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum exercitationem temporibus reiciendis aliquid, dolores pariatur, vel eius odit amet at est veritatis animi blanditiis sit iusto quae rem eligendi possimus?</p>
-            </div>
-          </div>
-        </div>
-      </div>
 
   <!--footer-->
   <footer>
