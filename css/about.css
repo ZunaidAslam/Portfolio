@@ -1,72 +1,99 @@
-/*Global*/
-html, body {
-    height: 100%;
-    width: 100%;
-    font-family: Roboto, sans-serif;
-    color: #2D2D2D;
+/*Global-style*/
+/* * {
+    margin: 0px;
+    padding: 0px;
+  } */
+  html {
+
+    font-family: 'PT Sans', sans-serif;   
+    color: #111;
+
   }
 
-
-/*header*/  
-  /* .container-fluid{
-    padding-right: 0px;
-    padding-left: 0px;
-  } */
-
-  .navbar{
-    padding-top: 11px;
-    padding-bottom:11px;
-    background-color: #ffffff;
-    box-shadow: 0px 4px 56px rgba(26, 26, 26, 0.12);
-    padding-right: 24px;
-    padding-left: 24px;
+  html, body {
+    background-image: url("/images/line-pattern.svg");
+    background-repeat: repeat-x;
+    font-family: 'PT Sans', sans-serif;   
+    color: #111;
    
+  }
+ 
 
+ 
+
+  /*header*/
+nav .container-fluid{
+  padding-right: 0px;
+}
+
+.navbar{
+    /* padding-top: 11px;
+    padding-bottom:11px; */
+    padding-right: 0px;
+    /* padding-left: 24px; */
+    font-size: 16px;
+    margin-top: 0px; 
+    padding: 0px;
+    margin: 0px;
   }
 
   .nav-link{
-    color: #32393D;
+    color: #111;
     font-size: 16px;
+    line-height: 130%;
+    align-items: center;
     letter-spacing: 0.04em;
     transition: all .3s ease-out;
     font-weight: 400;
   }
 
-  .nav-item{
-    padding-left: 16px; 
+ #contact-button{
+  width: 140px;
+  height: 80px;
+  margin:0px;
+  padding: 0px;
+  background: #EB2500;
+  transition: all .3s ease-out;
+ }
+
+ #contact-button {
+  color: #fff;
+  font-weight: 700;
+}
+
+#contact-button:hover{
+  background: #111111;
+}
+
+ .navbar li {
+   margin: 0px;
+ }
+ .active {
+  color: #EB2500;
+}
+
+#home, #about {
+  margin-right: 15px;
+  transition: all .3s ease-out;
+
+}
+
+#home:hover, #about:hover{
+  color: #EB2500;
+}
+
+
+
+
+/*footer*/
+footer{
+  margin-top: 30px;
+  font-size: 12px;
+}
+
+ @media (max-width: 768px) { 
+   
+
   }
 
-  .nav-link:hover{
-    color: #2A76F3;   
-    }
-
-  .active{
-    font-weight: 500;
-  }
-
-  /*about-us*/
-  .about{
-    padding-top: 0px; 
-    padding-bottom: 0px;
-    margin-top: 32px;
-    margin-bottom: 24px;
-    padding-left: 18%;
-    padding-right: 0px;
-    padding-left: 18%; 
-  }
-  .title {
-    font-weight: 500;
-     
-  }
-  .display-3 {
-    min-width: 31%;
-    margin: auto;
-    font-size: 150%;
-    line-height: 140%;
-    letter-spacing: 0.03em;
-    padding-bottom: 16px;
-  }
-
-  .about-me, .experience   {
-      padding-top: 32px; 
-  }
+ 

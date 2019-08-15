@@ -176,6 +176,8 @@ padding-bottom: 20px;
 }
 .port-image:hover .overlay{
   opacity: .75;
+  padding: 0px;
+  margin: 0px;
 }
 
 h3 {
