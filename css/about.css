@@ -83,7 +83,146 @@ nav .container-fluid{
 }
 
 
+/*hero*/
 
+.hero{
+  margin-bottom: 90px;
+  margin-top: 20px;
+ }
+
+
+.social {
+  margin-top: 25px;
+}
+
+.social li{
+  display: block;
+  margin-bottom: 30px;
+  text-align: center;
+ }
+ 
+ .git-social{
+  list-style-type:none;
+  margin: 0px;
+  padding: 0px;
+
+ }
+ .git-social li{
+  display: inline;
+  padding-right: 15px;
+  
+ }
+
+ .git-social  svg:hover path {
+  fill: #4C4D4D;
+  transition: all .3s ease-out;
+ }
+
+.git-social svg:hover path {
+ fill: #EB2500;
+}
+ 
+ .title{
+  font-size: 14px;
+  line-height: 140%;
+  letter-spacing: 0.03em;
+  color: #5F5F5F;
+ }
+
+ .display-3{
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 140%;
+  letter-spacing: 0.03em;
+  color: #111111;
+  width: 80%;
+ }
+
+.info{ 
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+letter-spacing: 0.03em;
+color: #5F5F5F;
+width: 40%;
+padding-bottom: 20px; 
+ }
+
+ .info-2{ 
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  /* or 22px */
+  letter-spacing: 0.03em;
+  color: #5F5F5F;
+  width: 60%;
+  padding-bottom: 20px; 
+   }
+
+   .info-3{ 
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 180%;
+    /* or 22px */
+    letter-spacing: 0.03em;
+    color: #5F5F5F;
+    width: 60%;
+
+     }
+
+ #btn-contact{
+  background: #EB2500;
+  box-shadow: 0px 16px 48px rgba(234, 8, 8, 0.32);
+  border-radius: 4px;
+  color: #fff;
+  padding: 15px 42px 15px 42px;
+  font-weight: 700;
+  margin-top: 40px !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: all .3s ease-out;
+}
+
+.social svg:hover path {
+  fill: #4C4D4D;
+  transition: all .3s ease-out;
+ }
+
+.social svg:hover path {
+ fill: #EB2500;
+}
+
+#btn-contact:hover{
+  box-shadow: 0px 12px 20px rgba(234, 8, 8, 0.2)
+}
+
+.mtop{
+  margin-top: 45px;
+}
+
+/* awards & cert */
+.certs{
+  margin: 0px;
+  padding: 0px;
+}
+
+.cert-bg{
+background: #FFFFFF;
+box-shadow: 0px 20px 48px rgba(26, 26, 26, 0.08);
+border-radius: 8px;
+display: inline-block;
+min-width: 424px;
+min-height: 450px;
+}
+
+.mar-xs{
+  margin: 15px;
+}
+
+.cert-img{
+  margin-bottom: 5px;
+}
 
 /*footer*/
 footer{
