@@ -242,6 +242,25 @@ footer{
    margin-bottom: 30px;
  }
 
+ #client-msg{ 
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  /* or 22px */
+  letter-spacing: 0.03em;
+  color: #5F5F5F;
+  width: 80%;
+  padding-bottom: 20px; 
+   }
+
+   .display-3{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 140%;
+    letter-spacing: 0.03em;
+    color: #111111;
+    width: 80%;
+   }
   }
 
  
