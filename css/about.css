@@ -87,7 +87,7 @@ nav .container-fluid{
 /*hero*/
 
 .hero{
-  margin-bottom: 90px;
+  margin-bottom: 30px;
   margin-top: 20px;
  }
 
@@ -153,7 +153,7 @@ padding-bottom: 20px;
 .info-2{ 
   font-weight: 400;
   font-size: 16px;
-  line-height: 140%;
+  line-height: 160%;
   /* or 22px */
   letter-spacing: 0.03em;
   color: #5F5F5F;
@@ -208,13 +208,19 @@ padding-bottom: 20px;
   padding: 0px;
 }
 
+.cert-row {
+
+  padding-left: 0px;
+}
+
+
 .cert-bg{
 background: #FFFFFF;
 box-shadow: 0px 20px 48px rgba(26, 26, 26, 0.08);
 border-radius: 8px;
 display: inline-block;
 /* min-width: 424px; */
-min-height: 450px;
+min-height: 420px;
 }
 
 .mar-xs{
@@ -223,7 +229,7 @@ min-height: 450px;
 
 .cert-img{
   margin-bottom: 5px;
-  min-width: 360px;
+  min-width: 240px;
 }
 
 /*footer*/
